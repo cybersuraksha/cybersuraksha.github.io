@@ -1,0 +1,56 @@
+   body {
+        color: rgb(243, 220, 116);;
+       font-family: 'Baloo Bhai', cursive;
+       background-image: url(https://i.postimg.cc/V6v3S0JF/hacking3.jpg);
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-size: cover;
+       color: blanchedalmond;
+       margin: auto;
+       padding: auto;
+       text-align: justify;
+       font-size: 20px;
+       padding: 10px;
+   }
+
+   .topcent{
+    /* border: 2px solid; */
+    text-align: center;
+   }
+   .navbar{
+    height: 40px;
+    color: white;
+    background-color: maroon;
+    font-size: 25px;
+    border-radius: 30px;
+   }
+   .navbar a{
+    text-decoration: none;
+    color: cyan;
+   }
+   .navbar a:hover{
+    border-radius: 5px;
+    background-color: rgb(13, 247, 247);
+    color: maroon;
+   }
+
+   .btn {
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    border: solid 2.5px rgb(75, 46, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(161, 116, 233);
+    padding: 6px;
+    cursor: pointer;
+    width: 110px;
+    font-size: 14.5px;
+    border-radius: 10px;
+    box-shadow: 10px 7px rgb(40, 2, 75);
+}
+.btn:hover {
+    color: rgb(224, 240, 225);
+    background-color: rgb(92, 10, 139);
+    border: 2px solid rgb(10, 2, 17);
+}

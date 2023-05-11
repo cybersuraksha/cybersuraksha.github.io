@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="https://i.postimg.cc/z3ZMPd0d/logo-cyber-suraksha.png">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            background-image: url(https://i.postimg.cc/V6v3S0JF/hacking3.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: blanchedalmond;
+            margin: auto;
+            padding: auto;
+            text-align: justify;
+        }
+
+        .right {
+            margin-left: 0px;
+            position: absolute;
+            right: 0px;
+            top: 10px;
+            display: inline-block;
+            border-radius: 30px;
+            width: 100%;
+        }
+
+        .logo,
+        .sitename {
+            float: left;
+        }
+        .sitename img{
+            padding-top: 0px;
+            height: 75px;
+        }
+        #navg {
+            border-radius: 30px;
+        }
+
+        #navbar {
+            list-style-type: none;
+        }
+
+        .navgmenu {
+            float: right;
+        }
+
+        #navbar li {
+            font-size: 15px;
+        }
+
+        #navbar li a {
+            color: rgba(240, 225, 92, 0.932);
+            text-decoration: none;
+            padding: 10px 23px;
+
+        }
+
+        #navbar li a:hover,#navbar li a.active {
+            border: solid 2px rgb(166, 212, 233);
+            border-radius: 15px;
+            background-color: rgb(51, 7, 92);
+            text-decoration: overline;
+            color: rgb(166, 212, 233);
+
+        }
+
+        .marq {
+            margin: 15px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: rgb(216, 195, 127);
+            color: rgb( 115, 15, 15);
+            font-size: 25px;
+        }
+
+        .home {
+            padding-right: 30%;
+            background-image: url(https://i.postimg.cc/SNbkPV2F/hacking1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 2.5%;
+            background-color: rgb(161, 114, 51);
+            font-style: italic;
+            color: rgb(134, 19, 19);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            text-decoration-style: solid;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text {
+            border-radius: 40px;
+            background-color: aliceblue;
+            opacity: .7;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 10px;
+        }
+
+        .cyb_sec_bas,.Cyb_threats,.Eth_Hack,.cybnews,.casstud,.about,.contact {
+            padding: 30px;
+        }
+
+        .content1 {
+            border: 5px solid rgb(148, 147, 147);
+            border-radius: 50px;
+            font-size: 20px;
+            padding: 30px;
+            color: rgb(243, 220, 116);
+            background-color: rgb(110, 116, 117);
+            opacity: .7;
+        }
+
+        .content2 {
+            border-width: thick;
+            border: 5px solid rgb(24, 59, 155);
+            border-radius: 50px;
+            font-size: 20px;
+            padding: 30px;
+            color: rgb(129, 14, 26);
+            background-color: rgb(132, 140, 180);
+            opacity: .7;
+        }
+
+        .content3 {
+            border: 5px solid rgb(95, 6, 117);
+            border-radius: 50px;
+            font-size: 20px;
+            padding: 30px;
+            color: rgb(175, 241, 179);
+            background-color: rgb(123, 114, 141);
+            opacity: .7;
+        }
+
+        .content4 {
+            border: 5px solid rgb(137, 180, 180);
+            border-radius: 50px;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: rgb(158, 66, 86);
+            background-color: rgb(117, 141, 155);
+            opacity: .7;
+        }
+        
+        .content5 {
+            border: 5px solid rgb(27, 138, 46);
+            border-radius: 40px;
+            display: flex;
+            font-size: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: rgb(231, 226, 253);
+            background-color: rgb(149, 182, 158);
+            opacity: .7;
+        }
+
+        .content6 {
+            border: 5px solid rgb(223, 172, 8);
+            border-radius: 40px;
+            font-size: 20px;
+            text-align: justify;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: rgb(14, 115, 133);
+            background-color: rgb(238, 238, 220);
+            opacity: .7;
+        }
+
+        .content7 {
+            border: 5px solid rgb(168, 4, 4);
+            border-radius: 40px;
+            font-size: 20px;
+            text-align: justify;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: rgb(41, 45, 46);
+            background-color: white;
+            opacity: .7;
+        }
+
+        .btn {
+            width: fit-content;
+            text-decoration: none;
+            color: white;
+            border: solid 2.5px rgb(75, 46, 122);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            background-color: rgb(161, 116, 233);
+            padding: 6px;
+            cursor: pointer;
+            width: 110px;
+            font-size: 14.5px;
+            border-radius: 10px;
+            box-shadow: 10px 7px rgb(40, 2, 75);
+        }
+        .btn:hover {
+            color: rgb(224, 240, 225);
+            background-color: rgb(92, 10, 139);
+            border: 2px solid rgb(10, 2, 17);
+        }
+
+        .study{
+            color: white;
+            width: 500px;
+            color: rgb(43, 42, 44);
+            text-align: justify;
+            border-radius: 25px;
+            border: 8px solid gray;
+            margin: 10px 1px;
+            padding: 9px 3px;
+            background-color: rgb(208, 236, 247);
+        }
+
+        .item {
+            color: rgb(43, 42, 44);
+            text-align: justify;
+            border-radius: 25px;
+            border: 8px solid gray;
+            margin: 10px 1px;
+            padding: 9px 3px;
+            background-color: rgb(247, 246, 246);
+        }
+
+        #news1 {
+            float: left;
+            width: 45%;
+            height: auto;
+        }
+
+        #news2 {
+            float: right;
+            width: 45%;
+            height: auto;
+        }
+
+        #news3 {
+            clear: both;
+            float: left;
+            width: 45%;
+            height: auto;
+        }
+
+        #news4 {
+            float: right;
+            width: 45%;
+            height: auto;
+        }
+
+        #news5 {
+            float: bottom;
+            clear: both;
+            width: 98%;
+            height: auto;
+        }
+
+        .link:hover {
+            border-radius: 8px;
+            background-color: rgb(10, 100, 22);
+            color: rgb(188, 233, 236);
+        }
+
+        body hr {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #myBtn {
+            background: transparent;
+            width: fit-content;
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 20px;
+            border-radius: 4px;
+        }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>CYBER SURAKSHA</title>
+</head>
+
+<body bgcolor="black">
+    <audio id="aud1" src="https://www.udrop.com/file/82gv/classic.mp4" preload="auto"></audio> <!--classic_click sound-->
+    <audio id="aud2" src="https://www.udrop.com/file/82gu/game.mp4" preload="auto"></audio>    <!--game_click sound-->
+    <header>
+        <div class="head">
+            <div class="right" style="background-color: rgb(53, 63, 85); height: 60px;">
+                <div class="logo"><img src="https://i.postimg.cc/z3ZMPd0d/logo-cyber-suraksha.png" alt="error in loading image"
+                        style="height: 60px; padding-left: 20px;"></div>
+                <div class="sitename">
+                    <img src="Images/Cyber Suraksha Logo.png" alt="">
+                </div>
+                <div class="navgmenu" style="align-items: center; padding-right: 20px; cursor: pointer;"><button
+                        type="button" onclick="document.getElementById('navg').style.display='block' , document.getElementById('aud1').play();"
+                        style="padding-left: 10px; background: transparent; border: none;"><br><img
+                            src="https://cdn1.iconfinder.com/data/icons/menu-flat-shaded-1/512/DropDown_Menu-2-512.png"
+                            style="height: 35px;"></button></div>
+                <!-- For the navigation-menu of the website  -->
+                <div id="navg"
+                    style="display: none; text-align: center; text-decoration: none; background-color: rgb(53, 63, 85);">
+                    <br><br><br>
+                    <ul id="navbar">
+                        <li><a href="#link1" class="active">Home</a></li> <br>
+                        <li><a href="#link2">Cyber Security Basics</a></li> <br>
+                        <li><a href="#link3">Common Cyber threats</a> </li> <br>
+                        <li><a href="#link4">Ethical Hacking</a> </li> <br>
+                        <li><a href="#link5">Cyber security news</a> </li> <br>
+                        <li><a href="#link6">Case studies</a> </li> <br>
+                        <li><a href="#link7">About Us</a></li> <br>
+                        <li><a href="#link8">Contact Us</a></li> <br>
+                        <button class="btn" onclick="document.getElementById('navg').style.display='none' , document.getElementById('aud2').play();" style="width: fit-content">Close Menu &nbsp;<img src="https://www.iconattitude.com/icons/open_icon_library/actions/png/256/window-close-3.png" style="height: 15px;" ></button><br><br>
+                    </ul>
+                </div>
+            </div><br><br><br>
+        </div>
+    </header>
+    <button onclick="topFunction(),document.getElementById('aud1').play();" id="myBtn" title="Go to top"><img src="https://i.postimg.cc/0N08GS2R/arrow.png" style="height: 50px;"></button>
+    <br><br><br><br><br><br>
+    <div id="imgcentr" class="center">
+        <div id="img">
+            <center><img src="https://i.postimg.cc/L5ZwDdBY/logo-light.png" style="width: 50%; display: block;"></center>
+        </div>
+    </div><br><br><br>
+    <div class="marq">
+        <marquee width="100%" behaviour="slide">Welcome to the website of 'Cyber Suraksha.' Here you will come to
+            know about Ethical Hacking and Cyber Security. </marquee>
+    </div>
+    <a name="link1">
+        <div class="home">
+            <div class="text">
+                <p>
+                    " Nowadays the people are getting more and more dependent on technology and the cyber world. So,
+                    with the increasing reliance on technology has resulted in a rise of cybercrime and cyber threats,
+                    posing
+                    significant risks to personal and corporate data. This website is created to help different
+                    organisataions understated how hackers operate and the various techniques they use to penetrate any
+                    system for security vulnerabilities and also helps the organistaion to comply with these
+                    regulations. Cyber security is a discipline that covers how to defend devices and services from
+                    electronic attacks by nefarious actors such as hackers, spammers, and cybercriminals. While some
+                    components of cyber security are designed to strike first, most of today's professionals focus more
+                    on determining the best way to defend all assets, from computers and smartphones to networks and
+                    databases, from attacks. The most common way an organisation protect their system is Ethical
+                    hacking. Ethical hacking is used to secure important data from enemies. It works as a safeguard of
+                    your computer from blackmail by the people who want to exploit the vulnerability. Using ethical
+                    hacking, a company or organization can find out security vulnerability and risks. Ethical hacking
+                    can ensure the safety of the nation by preventing cyber-terrorism and terrorist attacks. The trained
+                    ethical hackers are the main strength. To ensure the functions of software aptly, ethical hackers
+                    can apply quick security tests under extreme and standard conditions. They can identify the weakness
+                    of your software security. Using the hacker's perspective, you can look at your security and fix any
+                    anomalies before making a problem in the company's success. "
+
+                </p>
+            </div>
+        </div>
+    </a>
+    <br>
+    <hr><br>
+
+    <a name="link2">
+        <div class="cyb_sec_bas">
+            <div class="content1">
+                <center>
+                    <b>
+                        <h1><u>CYBER SECURITY BASICS</u></h1>
+                    </b>
+                    <img src="https://i.postimg.cc/tTc8FRPG/cybsecbas.jpg" style="width: 40%;">
+                </center>
+                <p>
+                    The term cybersecurity refers to techniques and practices designed to protect digital data. The data
+                    that is
+                    stored, transmitted or used on an information system. After all, that is what criminal wants, data.
+                    The
+                    network, servers, computers are just mechanisms to get to the data. Effective cybersecurity reduces
+                    the risk
+                    of cyber-attacks and protects organizations and individuals from the unauthorized exploitation of
+                    systems,
+                    networks, and technologies. Confidentiality, integrity, and availability, also known as the CIA
+                    triad, is a
+                    model designed to guide companies and organizations to form their security policies. Technically,
+                    cybersecurity means protecting information from unauthorized access, unauthorized modification, and
+                    unauthorized deletion in order to provide confidentiality, integrity, and availability.
+                    <br><br>
+                <div id="cybsec" style="display: none;">
+                    Generally the cyber security basics consists of 4 major points - <br>
+                    <ul type="Square">
+                        <li style="color: rgb(62, 158, 142);"><b><u>Password Management</u> :</b></li>
+                        <p> Since passwords are meant to keep the files and data secret and safe so it is prevented the
+                            unauthorized
+                            access, password management refers to the practices and set of rules or principles or
+                            standards
+                            that
+                            out
+                            must follow or at least try to seek help from in order to be a good/strong password and
+                            along
+                            with
+                            its
+                            storage and management for the future requirements.
+                            <br>
+                            There are a lot of good practices that we can follow to generate a strong password and also
+                            the
+                            ways
+                            to
+                            manage them.
+                        <ul>
+                            <li><strong>Strong and long passwords:</strong> A minimum length of 8 to 12 characters long,
+                                also it
+                                should contain at least
+                                three different character sets (e.g., uppercase characters, lowercase characters,
+                                numbers,
+                                or
+                                symbols)
+                            <li><strong>Password Encryption:</strong> Using irreversible end-to-end encryption is
+                                recommended.
+                                In
+                                this way, the password
+                                remains safe even if it ends up in the hands of cybercriminals.
+                            <li><strong>Multi-factor Authentication (MFA):</strong> Adding some security questions and a
+                                phone
+                                number that would be used
+                                to confirm that it is indeed you who is trying to log in will enhance the security of
+                                your
+                                password.
+                            <li><strong>Make the password pass the test:</strong> Yes, put your password through some
+                                testing
+                                tools
+                                that you might find
+                                online in order to ensure that it falls under the strong and safe password category.
+                            <li><strong>Avoid updating passwords frequently:</strong> Though it is advised or even made
+                                mandatory to
+                                update or change
+                                your password as frequently as in 60 or 90 days.
+                        </ul>
+                        </p>
+                        <li style="color: rgb(62, 158, 142);;"><b><u>Email Security</u> :</b></li>
+                        <p>
+                            Email security is a term for describing different procedures and techniques for protecting
+                            email
+                            accounts, content, and communication against unauthorized access, loss or compromise. Email
+                            is
+                            often
+                            used to spread malware, spam and phishing attacks. Attackers use deceptive messages to
+                            entice
+                            recipients
+                            to part with sensitive information, open attachments or click on hyperlinks that install
+                            malware
+                            on
+                            the
+                            victim's device. Email is also a common entry point for attackers looking to gain a foothold
+                            in
+                            an
+                            enterprise network and obtain valuable company data. Email encryption involves encrypting,
+                            or
+                            disguising, the content of email messages to protect potentially sensitive information from
+                            being
+                            read
+                            by anyone other than intended recipients. Email encryption often includes authentication.
+                            <br>
+                            One of the first best practices that organizations should put into effect is implementing a
+                            secure
+                            email
+                            gateway. An email gateway scans and processes all incoming and outgoing email and makes sure
+                            that
+                            threats are not allowed in. Because attacks are increasingly sophisticated, standard
+                            security
+                            measures,
+                            such as blocking known bad file attachments, are no longer effective. A better solution is
+                            to
+                            deploy
+                            a
+                            secure email gateway that uses a multi-layered approach. <br>
+                            <center><img src="https://i.postimg.cc/xd2fb5Q3/email-security.png" width="50%"><br></center>
+                            The security of email can depend on the user. Training employees on appropriate email usage
+                            and
+                            knowing
+                            what is a good and bad email is also an important best practice for email security. Users
+                            may
+                            receive a
+                            malicious email that slips through the secure email gateway, so it's critical that they
+                            understand
+                            what
+                            to look for. Most often they are exposed to phishing attacks, which have telltale signs.
+                            Training
+                            helps
+                            employees spot and report on these types of emails.
+                        </p>
+                        <li style="color: rgb(62, 158, 142);;"><b><u>Safe Internet browsing Practices</u> :</b></li>
+                        <p>
+                            A connection to the Internet provides access to information and enables communication
+                            services
+                            such
+                            as
+                            email and online banking. The Internet enables people to work effectively and efficiently in
+                            a
+                            convenient manner saving time and resources.
+                            <br>
+                            Some tips for safe browsing of the Internet include:
+                            <br>
+                        <ol>
+                            <li>Visit only legitimate and trusted websites for safe and secure browsing
+                            <li>Use discretion and follow safe practices to download files or software from the internet
+                                as
+                                well
+                                as
+                                accessing online services using personal information
+                            <li>Use caution when sending and receiving emails, to protect from phishing & spamming
+                            <li>Be aware of the harm caused by inappropriate internet browsing
+                        </ol><br>
+                        Cybercriminals also use the Internet to gather personal, confidential and financial information.
+
+                        Many of the internet's most popular services-email, social media, photo and video sharing-may be
+                        free,
+                        but
+                        that doesn't mean they come without a cost. What appears to be free is paid for by the shared
+                        data.
+                        Cybercriminals will use the shared data to spam people with advertisements, other unsafe
+                        material,
+                        commit
+                        fraud1, theft and to perform other illegal activities. <br><br>
+                        Some good practices include:
+                        <ol>
+                            <li>Never use of unsecure Wi-Fi access points when connecting for banking/financial
+                                transaction.
+                            <li>Use appropriate firewalls and strong passwords to keep your home computers and mobile
+                                devices
+                                safe
+                                and
+                                secure.
+                        </ol>
+                        </p>
+                        <li style="color: rgb(62, 158, 142);;"><b><u>Social Media Security</u> :</b></li>
+                        <p>
+                            Social media has become a prime target for cybercrime. All organizations should take
+                            appropriate
+                            measures to be cyber-safe, and users, too, should protect their personal information to
+                            avoid
+                            any
+                            misuse. Cyberspace is becoming a significant area for crimes, so there is a need for
+                            comprehensive
+                            collaboration among nations to work together and combat these social network crimes and
+                            social
+                            media
+                            cyber attacks, which are a continuously gowning menace.
+                            <br>
+                            As social media has grown by leaps and bounds, it has brought various benefits
+                            simultaneously
+                            and
+                            has
+                            posed serious social media cyber security concerns. It also acts as a vulnerable platform to
+                            be
+                            exploited by hackers. Some issues associated are pointed out below.
+                        <ol>
+                            <li><u>Privacy of Data</u>: Users share their personal information on social media, which
+                                can
+                                cause
+                                privacy
+                                breaches. It can also sometimes cause personal data loss or instigate hackers to
+                                leverage
+                                the
+                                same
+                                for
+                                malicious reasons. For example, a user's information can be viewed by everyone if the
+                                user's
+                                default
+                                setting is public.
+                            <li><u>Data Mining</u>: We all leave a data trail behind on the internet. When someone
+                                creates a
+                                new
+                                social media
+                                account and provides details such as date of birth, name, location, and personal habits,
+                                and
+                                without
+                                our
+                                knowledge, all these data are leveraged and shared with third-party for targeting
+                                advertising.
+                                It
+                                can
+                                cause security concerns as third-party may collect real-time updates on the user's
+                                location.
+                            <li><u>Virus and Malware Attacks</u>: Malware and viruses quite often find a way into the
+                                computer
+                                system through
+                                annoying ads. Once gaining access to the network, the attacker steals confidential data
+                                or
+                                causes
+                                complete disruption to the computer system. This often causes the loss of all kinds of
+                                data
+                                -
+                                personal,
+                                professional, financial, etc.
+                            <li><u>Issues involving the use of 3rd Party Applications</u>: Most applications nowadays
+                                ask
+                                permission
+                                from users
+                                to access personal information such as contacts, pictures, and current geographic
+                                location
+                                before
+                                installing, and some of these applications which are running in the background might
+                                download
+                                malware on
+                                the user's phone or smart devices without their knowledge.
+                            <li><u>Legal Issues</u>: There are legal risks associated with the use of social media, like
+                                posting
+                                offensive
+                                content towards any individual, community, or country. Often, legal actions can be and
+                                are
+                                taken
+                                when
+                                such offensive posts are made and uploaded by any individual or organization.
+                        </ol>
+
+                        </p>
+                    </ul>
+                    <br>
+                    <button class="btn"
+                        onclick="document.getElementById('cybsec').style.display='none' , document.getElementById('bt1').style.display='block' , document.getElementById('aud2').play();">SHOW
+                        LESS</button>
+                </div>
+                <button type="button" id="bt1" class="btn"
+                    onclick="document.getElementById('cybsec').style.display='block', document.getElementById('bt1').style.display='none' ,    document.getElementById('aud1').play();">LEARN MORE</button>
+                </p>
+            </div>
+        </div>
+    </a>
+    <br>
+    <hr><br>
+
+    <a name="link3">
+        <div class="Cyb_threats">
+            <div class="content2">
+                <center>
+                    <b>
+                        <h1><u>COMMON CYBER THREATS</u></h1>
+                    </b>
+                    <img src="https://i.postimg.cc/7hfwyQ1w/CYBERTHREATS.jpg" style="width: 40%;">
+                </center>
+                <p>
+                    A cyberattack is any offensive maneuver that targets computer information systems, computer
+                    networks, infrastructures, personal computer devices, or smartphones. An attacker is a person or
+                    process that attempts to access data, functions, or other restricted areas of the system without
+                    authorization, potentially with malicious intent. Depending on the context, cyberattacks can be part
+                    of cyber warfare or cyberterrorism. A cyberattack can be employed by sovereign states, individuals,
+                    groups, societies or organisations and it may originate from an anonymous source. A product that
+                    facilitates a cyberattack is sometimes called a cyber weapon. Cyber attacks have increased with an
+                    alarming rate for the last few years. <br><br>
+                    Most common cyber threats include- Malware, Phishing, Social engineering attacks, Ransomware, DOS
+                    attacks, MITM Attacks, etc.<br><br>
+                <div id="cybthreat" style="display: none;">
+                    <ol>
+                        <b>
+                            <li style="color:rgb(11, 107, 75);">MALWARE :</li>
+                        </b>
+                        <p>
+                            Malware is any software intentionally designed to cause disruption to a computer, server,
+                            client, or
+                            computer network, leak private information, gain
+                            unauthorized access to information or systems, deprive access to information, or which
+                            unknowingly
+                            interferes with the user's computer security and privacy. Researchers tend to classify
+                            malware into one or more sub-types (i.e. computer viruses, worms, Trojan horses, ransomware,
+                            spyware,
+                            adware, rogue software, wiper and keyloggers).
+
+                            Malware poses serious problems to individuals and businesses on the Internet. According to
+                            Symantec's 2018 Internet Security Threat Report (ISTR), malware variants number has
+                            increased to
+                            669,947,865 in 2017, which is twice as many malware variants as in 2016. Cybercrime, which
+                            includes
+                            malware attacks as well as other crimes committed by computer, was predicted to cost the
+                            world economy
+                            $6 trillion USD in 2021, and is increasing at a rate of 15% per year. Since 2021, malware
+                            has been
+                            designed to target computer systems that run critical infrastructure such as the electricity
+                            distribution network.
+                            The defense strategies against malware differ according to the type of malware but most can
+                            be thwarted
+                            by installing antivirus software, firewalls, applying regular patches to reduce zero-day
+                            attacks,
+                            securing networks from intrusion, having regular backups and isolating infected systems.
+                            Malware is now
+                            being designed to evade antivirus software detection algorithms. <br>
+                            Malware can reveal itself with many different aberrant behaviors. Here are a few telltale
+                            signs that you
+                            have malware on your system:
+                        <ul>
+                            <li>Your computer slows down. One of malware's side effects is to reduce the speed of your
+                                operating
+                                system (OS), whether you're navigating the Internet or just using your local
+                                applications, usage of
+                                your system's resources appears abnormally high. You might even notice your computer's
+                                fan whirring
+                                away at full speed - a good indicator that something is taking up system resources in
+                                the
+                                background. This tends to happen when your computer has been roped into a botnet; i.e. a
+                                network of
+                                enslaved computers used to perform DoS(Denial of Service) attacks, blast out spam, or
+                                mine
+                                cryptocurrency.</li>
+                            <li>Your system crashes. This can come as a freeze or a BSOD (Blue Screen of Death), the
+                                latter occurs
+                                on Windows systems after encountering a fatal error.</li>
+                            <li>You notice a mysterious loss of disk space. This could be due to a bloated malware
+                                squatter, hiding
+                                in your hard drive also known as bundleware.</li>
+                            <li>Your screen is inundated with annoying ads. Unexpected pop-up ads are a typical sign of
+                                a malware
+                                infection. They're especially associated with a form of malware known as adware. What's
+                                more,
+                                pop-ups usually come packaged with other hidden malware threats. So if you see something
+                                akin to "
+                                CONGRATULATIONS, YOU'VE WON A FREE PSYCHIC READING! " in a pop-up, don't click on it.
+                                Whatever free
+                                prize the ad promises, it will cost you plenty.</li>
+                            <li>Your antivirus product stops working and you cannot turn it back on, leaving you
+                                unprotected against
+                                the sneaky malware that disabled it.</li>
+                            <li>Even if everything seems to be working just fine on your system, don't get complacent,
+                                because no
+                                news isn't necessarily good news. Powerful malware can hide deep in your computer,
+                                evading
+                                detection, and going about its dirty business without raising any red flags. It really
+                                takes the
+                                unfaltering eye of a good cybersecurity program to detect malware on your system (more
+                                on that
+                                later).</li>
+                        </ul>
+                        </p>
+                        <b>
+                            <li style="color:rgb(11, 107, 75);">PHISHING :</li>
+                        </b>
+                        <p>
+                            In the cyber world, Phishing (also known as carding and spoofing) is a form of illegal act
+                            whereby
+                            fraud1ulently sensisitive information is acquired, such as passwords and credit card details,
+                            by a
+                            person/entity, masquerading as a trustworthy person or business in an apparently official
+                            electronic
+                            communication, such as an e-mail or instantaneous communication. <br>
+                        <h4>Indication of Phishing Attempts</h4>
+                        <ul>
+                            <li>If an email addresses a user in a generic fashion (for eg, Dear eBay member), it is
+                                likely to be an attempt
+                                of phishing.</li>
+                            <li>The appearance of links in the message may deceive the users.</li>
+                            <li>Cross-site scripting: In such cases users may be asked to verify their account by
+                                visiting a given
+                                link which may appear to be authentic but actually is a forged one.</li>
+                        </ul>
+                        </p>
+                        <b>
+                            <li style="color: rgb(11, 107, 75);">RANSOMEWARE :</li>
+                        </b>
+                        <P>
+                            Ransomware is a type of malicious software designed to block access to a computer system
+                            until a sum of
+                            money is paid. is a type of malware from cryptovirology that threatens to publish the
+                            victim's personal
+                            data or permanently block access to it unless a ransom is paid off. While some simple
+                            ransomware may
+                            lock the system without damaging any files, more advanced malware uses a technique called
+                            cryptoviral
+                            extortion. It encrypts the victim's files, making them inaccessible, and demands a ransom
+                            payment to
+                            decrypt them. In a properly implemented cryptoviral extortion attack, recovering the files
+                            without the
+                            decryption key is an intractable problem - and difficult to trace digital currencies such as
+                            paysafecard
+                            or Bitcoin and other cryptocurrencies are used for the ransoms, making tracing and
+                            prosecuting the
+                            perpetrators difficult. <br>
+                            Ransomware attacks are typically carried out using a Trojan disguised as a legitimate file
+                            that the user
+                            is tricked into downloading or opening when it arrives as an email attachment. However, one
+                            high-profile
+                            example, the WannaCry worm, traveled automatically between computers without user
+                            interaction.
+                        </P>
+                        <b>
+                            <li style="color:rgb(11, 107, 75);">DENIAL OF SERVICE (DOS) ATTACKS :</li>
+                        </b>
+                        <P>
+                            Denial of service (DOS) is a network security attack, in which, the hacker makes the system
+                            or data
+                            unavailable to someone who needs it.
+
+                            Denial of service is of various types :
+                        <UL>
+                            <LI><U>Browser Redirection</U> -
+                                This happens when you are trying to reach a webpage, however, another page with a
+                                different URL opens.
+                                You can view only the directed page and are unable to view the contents of the original
+                                page. This is
+                                because the hacker has redirected the original page to a different page.
+                            <li><u>Closing Connections</u> -
+                                After closing the connection, there can be no communication between the sender(server)
+                                and the
+                                receiver(client). The hacker closes the open connection and prevents the user from
+                                accessing resources.
+                        </UL>
+                        </P>
+                        <b>
+                            <li style="color:rgb(11, 107, 75);">MITM OR PITM ATTACKS</li>
+                        </b>
+                        <p>
+                            In cryptography and computer security, a man-in-the-middle, monster-in-the-middle,
+                            machine-in-the-middle, meddler-in-the-middle, manipulator-in-the-middle (MITM),
+                            person-in-the-middle (PITM) or adversary-in-the-middle (AITM) attack is a cyberattack where
+                            the attacker secretly relays and possibly alters the communications between two parties who
+                            believe that they are directly communicating with each other, as the attacker has inserted
+                            themselves between the two parties. One example of a MITM attack is active eavesdropping, in
+                            which the attacker makes independent connections with the victims and relays messages
+                            between them to make them believe they are talking directly to each other over a private
+                            connection, when in fact the entire conversation is controlled by the attacker. The attacker
+                            must be able to intercept all relevant messages passing between the two victims and inject
+                            new ones. This is straightforward in many circumstances; for example, an attacker within the
+                            reception range of an unencrypted Wi-Fi access point could insert themselves as a
+                            man-in-the-middle. As it aims to circumvent mutual authentication, a MITM attack can succeed
+                            only when the attacker impersonates each endpoint sufficiently well to satisfy their
+                            expectations. Most cryptographic protocols include some form of endpoint authentication
+                            specifically to prevent MITM attacks. For example, TLS can authenticate one or both parties
+                            using a mutually trusted certificate authority. <br>MITM attacks can be prevented or
+                            detected by two means: authentication and tamper detection. Authentication provides some
+                            degree of certainty that a given message has come from a legitimate source. Tamper detection
+                            merely shows evidence that a message may have been altered.
+                        </p>
+                    </ol>
+                    <br><br>
+                    <button type="button" class="btn"
+                        onclick="document.getElementById('cybthreat').style.display='none', document.getElementById('bt2').style.display='block' , document.getElementById('aud2').play();">SHOW
+                        LESS</button>
+                    <br>
+                </div>
+                <button type="button" id="bt2" class="btn"
+                    onclick="document.getElementById('cybthreat').style.display='block', document.getElementById('bt2').style.display='none' , document.getElementById('aud1').play();">LEARN MORE</button>
+                </p>
+            </div>
+        </div>
+    </a>
+    <br>
+    <hr><br>
+
+    <a name="link4">
+        <div class="Eth_Hack">
+            <div class="content3">
+                <center>
+                    <b>
+                        <h1><u>ETHICAL HACKING</u></h1>
+                    </b>
+                    <img src="https://i.postimg.cc/6QWsXmwg/ethical-hacking.jpg" style="width: 40%;">
+                </center>
+                <p>
+                    Ethical hacking is an authorized practice of detecting vulnerabilities in an application, system, or
+                    organization's infrastructure and bypassing system security to identify potential data breaches and
+                    threats in a network. Ethical hackers aim to investigate the system or network for weak points that
+                    malicious hackers can exploit or destroy. They can improve the security footprint to withstand
+                    attacks better or divert them.<br>
+                    The company that owns the system or network allows Cyber Security engineers to perform such
+                    activities in order to test the system's defenses. Thus, unlike malicious hacking, this process is
+                    planned, approved, and more importantly, legal.
+                    <br><br>
+                <div id="ethhack" style="display: none;">
+                    The term 'Hacker' was coined to describe experts who used their skills to re-develop mainframe
+                    systems,
+                    increasing their efficiency and allowing them to multi-task. Nowadays, the term routinely describes
+                    skilled programmers who gain unauthorized access into computer systems by exploiting weaknesses or
+                    using
+                    bugs, motivated either by malice or mischief. For example, a hacker can create algorithms to crack
+                    passwords, penetrate networks, or even disrupt network services. The primary motive of
+                    malicious/unethical hacking involves stealing valuable information or financial gain. However, not
+                    all
+                    hacking is bad. This brings us to the second type of hacking: <strong>Ethical hacking</strong>. <br>
+                    Ethical hackers aim to investigate the system or network for weak points that malicious hackers can
+                    exploit or destroy. They collect and analyze the information to figure out ways to strengthen the
+                    security of the system/network/applications. By doing so, they can improve the security footprint so
+                    that it can better withstand attacks or divert them.
+                    Ethical hackers are hired by organizations to look into the vulnerabilities of their systems and
+                    networks and develop solutions to prevent data breaches. Consider it a high-tech permutation of the
+                    old
+                    saying “It takes a thief to catch a thief.” <br><br>
+
+                    They check for key vulnerabilities include but are not limited to:
+                    <ol>
+                        <li>Injection attacks</li>
+                        <li>Changes in security settings</li>
+                        <li>Exposure of sensitive data</li>
+                        <li>Breach in authentication protocols</li>
+                        <li>Components used in the system or network that may be used as access points</li>
+                    </ol><br>
+                    The practice of ethical hacking is called “White Hat” hacking, and those who perform it are called
+                    White Hat
+                    hackers. In contrast to Ethical Hacking, “Black Hat” hacking describes practices involving security
+                    violations. The Black Hat hackers use illegal techniques to compromise the system or destroy
+                    information.
+                    <br>
+                    <strong>Ethical Hackers must follow certain guidelines in order to perform hacking legally. A good
+                        hacker
+                        knows his
+                        or her responsibility and adheres to all of the ethical guidelines. Here are the most important
+                        rules of
+                        Ethical Hacking:</strong>
+                    <ul type="square">
+                        <li>An ethical hacker must seek authorization from the organization that owns the system.
+                            Hackers should
+                            obtain
+                            complete approval before performing any security assessment on the system or network. </li>
+                        <li>Determine the scope of their assessment and make known their plan to the organization.</li>
+                        <li>Report any security breaches and vulnerabilities found in the system or network.</li>
+                        <li>Keep their discoveries confidential. As their purpose is to secure the system or network,
+                            ethical
+                            hackers
+                            should agree to and respect their non-disclosure agreement.</li>
+                        <li>Erase all traces of the hack after checking the system for any vulnerability. It prevents
+                            malicious
+                            hackers
+                            from entering the system through the identified loopholes.</li>
+                    </ul>
+                    <br>
+                    <h4>KEY BENEFITS OF ETHICAL HACKING :</h4>
+                    Learning ethical hacking involves studying the mindset and techniques of black hat hackers and
+                    testers to
+                    learn how to identify and correct vulnerabilities within networks. Studying ethical hacking can be
+                    applied
+                    by security pros across industries and in a multitude of sectors. This sphere includes network
+                    defender,
+                    risk management, and quality assurance tester.
+                    <br>
+                    However, the most obvious benefit of learning ethical hacking is its potential to inform and improve
+                    and
+                    defend corporate networks. The primary threat to any organization's security is a hacker: learning,
+                    understanding, and implementing how hackers operate can help network defenders prioritize potential
+                    risks
+                    and learn how to remediate them best. Additionally, getting ethical hacking training or
+                    certifications can
+                    benefit those who are seeking a new role in the security realm or those wanting to demonstrate
+                    skills and
+                    quality to their organization.
+                    <h4>SKILLS REQUIRED TO BECOME AN ETHICAL HACKER :</h4>
+                    An ethical hacker should have in-depth knowledge about all the systems, networks, program codes,
+                    security
+                    measures, etc. to perform hacking efficiently. Some of these skills include:
+                    <ul>
+                        <li>Knowledge of programming - It is required for security professionals working in the field of
+                            application
+                            security and Software Development Life Cycle (SDLC).
+                        <li>Scripting knowledge - This is required for professionals dealing with network-based attacks
+                            and
+                            host-based
+                            attacks.
+                        <li>Networking skills - This skill is important because threats mostly originate from networks.
+                            You
+                            should know
+                            about all of the devices present in the network, how they are connected, and how to identify
+                            if they
+                            are
+                            compromised.
+                        <li>Understanding of databases - Attacks are mostly targeted at databases. Knowledge of database
+                            management
+                            systems such as SQL will help you to effectively inspect operations carried out in
+                            databases.
+                        <li>Knowledge of multiple platforms like Windows, Linux, Unix, etc.
+                        <li>The ability to work with different hacking tools available in the market.
+                        <li>Knowledge of search engines and servers.
+                    </ul>
+                    <h4>ETHICAL HACKING TECHNIQUES :</h4>
+                    Ethical hackers generally use the same hacking skills that malicious actors use to attack
+                    enterprises. They
+                    use a form of reverse-engineering to imagine scenarios that could compromise business and
+                    operational data.
+                    The varied techniques and tools are part of an overall vulnerability assessment the ethical hacker
+                    performs
+                    on a client's behalf. <br>
+
+                    Some of these hacking techniques include the following:
+                    <ul>
+                        <li>scanning ports to find vulnerabilities with port scanning tools, such as Nmap,
+                            Nessus,Wireshark and
+                            others,
+                            looking at a company's systems, identifying open ports, studying the vulnerabilities of each
+                            port
+                            and
+                            recommending remedial action.
+                        <li>scrutinizing patch installation processes to be sure that the updated software doesn't
+                            introduce new
+                            vulnerabilities that can be exploited.
+                        <li>performing network traffic analysis and sniffing by using appropriate tools.
+                        <li>attempting to evade intrusion detection systems, intrusion prevention systems, honeypots and
+                            firewalls.
+                        <li>testing methods to detect Structured Query Language injection to ensure malicious hackers
+                            can't
+                            introduce
+                            security exploits that expose sensitive information contained in SQL-based relational
+                            databases.
+                    </ul>
+                    <br><br>
+                    <button class="btn" onclick="document.getElementById('ethhack').style.display='none', document.getElementById('bt3').style.display='block' , document.getElementById('aud2').play();">SHOW LESS</button>
+                    <br>
+                </div>
+                <button id="bt3" class="btn" onclick="document.getElementById('ethhack').style.display='block', document.getElementById('bt3').style.display='none' ,document.getElementById('aud1').play();">LEARN MORE</button>
+                </p>
+            </div>
+        </div>
+    </a>
+    <br>
+    <hr><br>
+
+    <a name="link5">
+        <div class="cybnews">
+            <div class="content4">
+                <center><b>
+                        <h1><u>LATEST CYBER SECURITY NEWS</u></h1>
+                    </b></center>
+                <div id="news1" class="item">
+                    <p id="news1para">
+                    <h4><u>Research indicates humans are still better than ChatGPT at phishing — for now</u></h4>
+                    A study sampling 53,000 email users in more than 100 countries found that professional red teamers
+                    generated a click rate of 4.2%, while ChatGPT-generated emails induced just a 2.9% click rate.The
+                    researchers said the evidence supports the argument that — at least for now — humans remain superior
+                    at tricking other humans. It also found that users with higher security awareness displayed were
+                    better at spotting phishing emails by both human and ChatGPT-generated emails, with failure rates
+                    dropping from more than 14% with less trained users to between 2% to 4% with experienced users...
+                    <a href="https://www.scmagazine.com/news/emerging-technology/research-indicates-humans-are-still-better-than-chatgpt-at-phishing-for-now?&web_view=true"
+                        class="link">READ MORE</a>
+                    </p>
+                </div>
+                <div id="news2" class="item">
+                    <p id="news2para">
+                    <h4><u>Attacker claims to have US Marshal wiretap and military data</u></h4>
+                    A malicious actor posted an 'advert' on a Russian-language cybercrime forum, announcing sale of what
+                    it said was a USMS data haul. The author claims the dataset includes drone videos of military bases,
+                    passports, and IDs, as well as information about convicts, witnesses, drug cartels, and other
+                    sensitive details. <br> The threat actors claiming the theft have put a $150,000 price tag on the
+                    dataset, which supposedly includes files marked "Top Secret" and backdoor software for Apple
+                    devices...
+                    <a href="https://cybernews.com/news/attacker-usms-us-marshal-wiretap-military-data/"
+                        class="link">READ MORE</a>
+                    </p>
+                </div>
+                <div id="news3" class="item">
+                    <p id="news3para">
+                    <h4><u>Russian hackers hit Indian Health Ministry's website: Cyber-security firm</u></h4>
+                    Cyber-security researchers from CloudSEK have claimed that a Russian hacker group targeted the
+                    Indian
+                    Health Ministry website and infiltrated its Health Management Information System (HMIS). The
+                    pro-Russian hacker group called Phoenix allegedly compromised the HMIS Portal and had access to the
+                    data of employees and chief physicians of all the hospitals in the country, claimed the AI-driven
+                    cybersecurity company. According to security researchers, the Russian threat actors may sell
+                    exfiltrated license documents and personal identifiable information (PII) on cybercrime forums...
+                    <br>
+                    <a href="https://odishatv.in/news/technology/russian-hackers-hit-indian-health-ministry-s-website-cyber-security-firm-199307"
+                        class="link">READ MORE</a>
+                    </p>
+                </div>
+                <div id="news4" class="item">
+                    <p id="news4para">
+                    <h4><u>University websites in South Korea defaced by Chinese hacktivist group, local media
+                            claims</u></h4>
+                    The threat actor allegedly threatened to go after a staggering 2,000 government targets in the Asian
+                    nation - and has now begun to act on that after hacking into the Korean Research Institute for
+                    Construction Policy and 11 other target organizations, Donga newspaper said. The suspected partisan
+                    group, which is rather perversely called the Cyber Security Team, is thought to be based in China.
+                    It's believed to be behind the attacks on January 25 that led to a dozen university websites being
+                    defaced with the slogan: “Announcing invasion of the South Korean internet.”... <br>
+                    <a href="https://cybernews.com/cyber-war/university-south-korea-chinese-hacktivist/"
+                        class="link">READ MORE</a>
+                    </p>
+                </div>
+                <div id="news5" class="item">
+                    <p id="news5para">
+                    <h4><u>Chinese hackers target Indian power grid assets in Ladakh</u></h4>
+                    Chinese state-sponsored hackers had targeted India's power grids in Ladakh possibly for information
+                    on India's critical infrastructure or to prepare for sabotage in the future, according to the
+                    American cybersecurity firm Recorded Future. The activity was identified through a combination of
+                    large-scale automated network traffic analytics and expert analysis. According to the report, this
+                    targeting is likely a long-term strategic priority for select Chinese state-sponsored threat actors
+                    active within India... <br>
+                    <a href="https://economictimes.indiatimes.com/industry/energy/power/chinese-hackers-target-indian-power-grid-assets-in-ladakh/articleshow/90950986.cms"
+                        class="link">READ MORE</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </a>
+    <br>
+    <hr><br>
+
+    <a name="link6">
+        <div class="casstud" style="color: white;">
+            <center><b><h1><u>CASE STUDIES</u></h1></b></center>
+            <div class="content5">
+                <div id="study1" class="study">
+                    <h4>SolarWinds supply chain attack:</h4>
+                    In December 2020, it was discovered that SolarWinds, a software company that provides network monitoring tools to many US government agencies and Fortune 500 companies, had been hacked by a foreign government. The hackers inserted malicious code into SolarWinds' Orion software updates, which allowed them to gain access to the networks of many of SolarWinds' customers.
+                </div>
+                <div id="study1" class="study">
+                    <h4>Equifax data breach:</h4>
+                    In 2017, Equifax, one of the largest credit reporting agencies in the US, suffered a data breach that exposed the personal information of over 147 million people.
+                </div>
+                <div id="study1" class="study">
+                    <h4>WannaCry ransomware attack:</h4>
+                    In May 2017, a ransomware attack known as WannaCry affected over 200,000 computers in 150 countries. The attack exploited a vulnerability in Microsoft Windows operating systems and demanded payment in Bitcoin
+                </div>
+            </div><br>
+            <center><button id="bt4" class="btn" style=" text-decoration: none; color: rgb(214, 208, 208);; width: fit-content; box-shadow: 10px 4px rgb(95, 91, 91);" onclick="document.getElementById('aud1').play(), window.alert('On clicking this link you will be redirected to an external site') ,window.open('https://en.wikipedia.org/wiki/List_of_cyberattacks')">LEARN MORE --></button></center>
+        </div>
+    </a>
+    <br><hr><br>
+
+    <a name="link7">
+        <div class="about">
+            <div class="content6">
+                <center><b>
+                        <h1><u>ABOUT US</u></h1>
+                    </b></center>
+                <p>
+                    Our mission is to make the people aware of the dangers and threats in today's cyber world and how
+                    the companies can keep their softwares protected by using Ethical Hacking tachniques. So we have
+                    created this website 'Cyber Suraksha' where you one can come across all the basics of cyber
+                    security, common cyber threats, ethical hacking, a few latest cyber news and few case studies. We
+                    hope this would do a great help to the people as well the companies who can stay protected from the
+                    evil intentions and motives of black-hat hackers and keep their data safe-handed and need not fear
+                    of data loss of their customers. If you find this useful then it is our earnest request to pass on
+                    these informations to others to spread awareness. Let us move one step forward in making a more safe
+                    and secured Digital and Self-reliant India.
+                </p>
+            </div>
+        </div>
+    </a>
+
+    <br>
+    <hr><br>
+
+    <a name="link8">
+        <div class="contact">
+            <div class="content7">
+                <center><b>
+                        <h1><u>CONTACT US</u></h1>
+                    </b></center>
+                <div class="info" style="text-align: center;">
+                    This site has been developed by <b>ANUBRATA DAS</b> <br><br>
+                    <p><i>For any kind of feedback or grievances, you can contact me. I would be very happy and glad to
+                        receive feedbacks regarding this site. All suggestions for further improvement will be
+                        gratefully acknowledged. </i><br><br></p>
+                    <p><img src="https://i.postimg.cc/SK2PkF3Z/WA-logo.png" style="height: 20px;">&nbsp;&nbsp;+91-<a
+                        href="tel: 7439443659" style="color: rgb(84, 160, 135);">7439443659</a><br></p>
+                    <p><img src="https://i.postimg.cc/fL3DGrfZ/email-logo.png" style="height: 20px;">&nbsp;&nbsp;<a
+                        href="mailto:dasanubratastcs@gmail.com" style="color: rgb(84, 160, 135);">dasanubratastcs@gmail.com</a><br></p>
+                    &nbsp;&nbsp;&nbsp;Howrah, West Bengal, India <br><br>
+                        <form id="feedback">
+                <input type="text" name="username" placeholder="Name" style="width: 80%; font-size: 20px; height: 40px; border-radius: 10px; background-color: rgb(229, 238, 232); border: none;" ><br><br>
+                <input type="number" name="userphn" placeholder="Phone number" style="width: 80%; font-size: 20px; height: 40px; border-radius: 10px; background-color: rgb(229, 238, 232); border: none;" ><br><br>
+                <input type="email" name="username" placeholder="Email Address" style="width: 80%; font-size: 20px; height: 40px; border-radius: 10px; background-color: rgb(229, 238, 232); border: none;" ><br><br>
+                <input type="text" name="username" placeholder="Message" style="width: 80%; font-size: 20px; height: 60px; border-radius: 10px; background-color: rgb(229, 238, 232); border: none;" ><br><br>
+                <button type="submit" onclick="document.getElementById('aud2').play() , document.getElementById('feedback').reset(),alert('Thanks for the feedback !! Your response has been recorded...')" style="background-color: rgb(212, 220, 228); height: 30px; border-radius: 10px; border: 2px solid rgb(17, 129, 241); color: rgb(153, 96, 96); cursor: pointer;"><b>SUBMIT FEEDBACK</b></button>
+                </form><br>
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <footer>
+    <div class="footer" style="background-color: rgb(53, 63, 85); color: white; text-align: center;">
+       <br><u>Copyright © 2023 All rights reserved</u> - <u>ANUBRATA DAS </u><br>
+       <i>NO PART OF THIS WEBSITE SHALL BE REPRODUCED BY ANY MEANS WITHOUT THE PRIOR PERMISSION OF THE DEVELOPER</i>
+    </div>
+    </footer>
+    <script>
+        alert("ATTENTION !!! This website is best suited in landscape mode. So if you are using a mobile device then please rotate your device for the best experience and then press the 'OK' button");
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
